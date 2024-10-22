@@ -1,9 +1,12 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "sideload-wiki",
+  "name": "sideload.wiki",
   "logo": {
-    "dark": "/images/logo.svg",
-    "light": "/images/logo.svg"
+    "dark": "/logo.webp",
+    "light": "/logo.webp"
+  },
+  "background": {
+    "style": "grid"
   },
   "favicon": "/favicon.svg",
   "modeToggle": {
@@ -11,7 +14,7 @@
     "isHidden": true
   },
   "colors": {
-    "primary": "#DC3962",
+    "primary": "#839dd1",
     "light": "#839dd1",
     "dark": "#AE0C35",
     "background": {
@@ -22,29 +25,17 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hi@9z91.dev"
     }
   ],
   "topbarCtaButton": {
     "name": "Purchase",
-    "url": "https://dxsign.cc"
+    "url": "https://dxsign.cc/purchase"
   },
   "tabs": [
     {
       "name": "Guides",
       "url": "guides"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://sideload.wiki"
-    },
-    {
-      "name": "Repository Source",
-      "icon": "slack",
-      "url": "https://dxsign.cc/api/apps"
     }
   ],
   "navigation": [
@@ -53,11 +44,19 @@
       "pages": ["introduction"]
     },
     {
-      "group": "Guides",
-      "pages": ["guides/introduction"]
+      "group": "Miscellaneous",
+      "pages": ["faqs/dxsign"]
+    },
+    {
+      "group": "Signing Guides",
+      "pages": ["guides/esign"]
+    },
+    {
+      "group": "Others",
+      "pages": ["guides/enable-developer-mode"]
     }
   ],
   "footerSocials": {
-    "discord": "https://discord.gg/fortnite"
+    "discord": "https://discord.gg/n9gCG3U5Yf"
   }
 }
