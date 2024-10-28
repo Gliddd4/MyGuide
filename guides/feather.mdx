@@ -1,0 +1,62 @@
+---
+title: "Sign Apps with Feather"
+sidebarTitle: "Feather"
+description: "Feather is a modern open-source alternative for signing apps."
+---
+
+<Note>
+  For iOS 17.7+, you need to enable "Online Signing Mode" which we will
+  explain in the final section.
+</Note>
+
+## IPA Download link
+
+```
+https://github.com/khcrysalis/Feather/releases/download/v1.0.5/feather_v1.0.5.ipa
+```
+
+<Info>
+  If you're unable to access this link, you can find the official GitHub repo for Feather on https://github.com/khcrysalis/Feather/
+</Info>
+
+## Import your certificate
+
+When you enter Feather, you'll be greeted by this screen, click continue.
+
+![Feather Home Screen](/images/Feather/home_screen.jpeg)
+
+Go to **Settings**, select **Add Certificate** under signing, and upload both your certificate (.p12), the .mobileprovision file and enter the password, which can be downloaded from our dashboard or any other signing provider you use.
+      
+![Feather Settings Screen](/images/Feather/settings_screen.jpeg)
+
+![Import Certificate](/images/Feather/import_certificate.jpeg)
+![Actually Import Certificate](/images/Feather/actually_import_certificate.jpeg)
+
+
+That's it! You can now return to the main Settings tab and see the status of your certificate under **Signing**.
+
+![Feather Settings Screen](/images/Feather/settings_screen_with_cert.jpeg)
+
+## Sign your IPA
+
+Go to the Library tab, then select **Import**. Upload all the IPA files you want to sign from either local files or from a URL.
+
+![Import IPAs](/images/Feather/import.jpeg)
+
+You should now see your app under Downloaded Apps. Click on the App you want to sign, then select **Sign "App Name"**.
+
+![Select Signature](/images/Feather/select_signature.jpeg)
+
+![Actually Signature](/images/Feather/signature.jpeg)
+
+The signing progress may take some time depending on the size of your IPA files, so please wait for it to complete.
+
+And you're all set! If your device is running iOS 17.6 or below, simply select **Install "App Name"** confirm the installation, and the app should appear on your home screen. If not, please follow the steps below.
+
+## Online Signing Mode
+
+<Warning>This section is applicable only to iOS 17.7+</Warning>
+
+Return to the Settings tab, under Signing Server you should see a toggle for **Online Install Method**. Turn it on and try sign / install your IPA
+
+![Online Signing Mode](/images/Feather/online-signing.jpeg)

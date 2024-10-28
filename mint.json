@@ -49,7 +49,7 @@
     },
     {
       "group": "Signing Guides",
-      "pages": ["guides/esign"]
+      "pages": ["guides/esign","guides/feather","guides/websign"]
     },
     {
       "group": "Others",
