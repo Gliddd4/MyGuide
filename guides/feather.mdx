@@ -1,7 +1,7 @@
 ---
 title: "Sign Apps with Feather"
 sidebarTitle: "Feather"
-description: "Feather is a modern open-source alternative for signing apps."
+description: "Feather is a modern open-source alternative for signing apps, allowing you to add repositories of many .ipa files at once and install with ease."
 ---
 
 <Note>
@@ -9,29 +9,55 @@ description: "Feather is a modern open-source alternative for signing apps."
   explain in the final section.
 </Note>
 
-## IPA Download link
+## Download the Feather .ipa
+
+Download the latest release of feather from the releases page on their GitHub below.&#x20;
 
 ```
-https://github.com/khcrysalis/Feather/releases/download/v1.0.5/feather_v1.0.5.ipa
+https://github.com/khcrysalis/Feather/releases/
 ```
 
-<Info>
-  If you're unable to access this link, you can find the official GitHub repo for Feather on https://github.com/khcrysalis/Feather/
-</Info>
+<Warning>
+  Please insure to get the .ipa version and NOT the .tipa version, as that is for TrollStore and will NOT work with this guide.
+</Warning>
 
-## Import your certificate
+## Installing Feather
+
+To install Feather on your iOS/iPadOS device you can use KravaSigner, a website that allows you to import your certificate for the purpose of installing .ipa files. Please note dxsign is NOT affiliated with KravaSign in any way.
+
+To start go to this link
+
+```
+https://sign.kravasign.com/
+```
+
+Then click choose file in the ipa section and select the Feather .ipa you downloaded before.
+
+![](/choosefile.png)
+After that, import your mobile provision and .p12 file you obtained from dxsign.cc, and type in the password given within the file "password" in the folder you downloaded from dxsign. Common passwords are 1234 and abcdefg, but to be sure open your files and tap on the file, where it will then show you your password.
+
+After importing that, click upload and sign.
+
+![](/uploadandsign.png)
+
+Then when prompted click sign ipa, and then click Install IPA.
+
+![](/install.png)
+
+After that click install when prompted again, and move on to the next step after it completes installing and appears on your home screen.
+
+# Import your certificate
 
 When you enter Feather, you'll be greeted by this screen, click continue.
 
 ![Feather Home Screen](/images/Feather/home_screen.jpeg)
 
 Go to **Settings**, select **Add Certificate** under signing, and upload both your certificate (.p12), the .mobileprovision file and enter the password, which can be downloaded from our dashboard or any other signing provider you use.
-      
+
 ![Feather Settings Screen](/images/Feather/settings_screen.jpeg)
 
 ![Import Certificate](/images/Feather/import_certificate.jpeg)
 ![Actually Import Certificate](/images/Feather/actually_import_certificate.jpeg)
-
 
 That's it! You can now return to the main Settings tab and see the status of your certificate under **Signing**.
 
@@ -55,7 +81,9 @@ And you're all set! If your device is running iOS 17.6 or below, simply select *
 
 ## Online Signing Mode
 
-<Warning>This section is applicable only to iOS 17.7+</Warning>
+<Warning>
+  This step is NOT required for those running iOS 17.6 or lower. However, it is required for those running iOS 17 and ABOVE.
+</Warning>
 
 Return to the Settings tab, under Signing Server you should see a toggle for **Online Install Method**. Turn it on and try sign / install your IPA
 
