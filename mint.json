@@ -2,13 +2,13 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "sideload.wiki",
   "logo": {
-    "dark": "/logo.webp",
-    "light": "/logo.webp"
+    "dark": "/Icon.png",
+    "light": "/Icon.png"
   },
   "background": {
     "style": "grid"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/Icon.png",
   "modeToggle": {
     "default": "dark",
     "isHidden": true
