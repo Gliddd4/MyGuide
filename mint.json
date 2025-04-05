@@ -15,8 +15,8 @@
   },
   "colors": {
     "primary": "#31d158",
-    "light": "#0A2A12",
-    "dark": "#31d158",
+    "light": "#31d158",
+    "dark": "#0A2A12",
     "background": {
       "dark": "#000000",
       "light": "#000000"
