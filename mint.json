@@ -25,13 +25,9 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "https://discord.gg/HQn2c3Pa"
+      "url": "https://dsc.gg/mysign"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Purchase",
-    "url": "https://dxsign.cc/purchase"
-  },
   "tabs": [
     {
       "name": "Guides",
@@ -57,6 +53,6 @@
     }
   ],
   "footerSocials": {
-    "discord": "https://discord.gg/n9gCG3U5Yf"
+    "discord": "https://dsc.gg/mysign"
   }
 }
