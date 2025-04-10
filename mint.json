@@ -22,6 +22,12 @@
       "light": "#000000"
     }
   },
+  "topbarLinks": [
+    {
+      "name": "Discord",
+      "url": "https://dsc.gg/mysign"
+    }
+  ],
   "navigation": [
     {
       "group": "Get Started",
