@@ -22,12 +22,6 @@
       "light": "#000000"
     }
   },
-  "tabs": [
-    {
-      "name": "Guides",
-      "url": "guides/feather"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
