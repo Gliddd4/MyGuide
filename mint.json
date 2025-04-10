@@ -22,12 +22,6 @@
       "light": "#000000"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "https://dsc.gg/mysign"
-    }
-  ],
   "tabs": [
     {
       "name": "Guides",
@@ -44,12 +38,8 @@
       "pages": ["faqs/mysign"]
     },
     {
-      "group": "Signing Guides",
-      "pages": ["guides/esign","guides/feather","guides/websign"]
-    },
-    {
-      "group": "Others",
-      "pages": ["guides/enable-developer-mode"]
+      "group": "Tutorials",
+      "pages": ["guides/feather","guides/websign", "guides/enable-developer-mode"]
     }
   ],
   "footerSocials": {
