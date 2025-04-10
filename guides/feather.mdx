@@ -1,25 +1,26 @@
 ---
-title: "Sign Apps with Feather"
+title: "Sideloading with Feather"
 sidebarTitle: "Feather"
-description: "Feather is a modern open-source alternative for signing apps, allowing you to add repositories of many .ipa files at once and install with ease."
+description: "Feather is a modern open-source alternative for signing apps."
 ---
 
 <Note>
-  For iOS 17.7+, you need to enable "Online Signing Mode" which we will
-  explain in the final section.
+  For iOS 17.7\+, you need to enable "Online Signing Mode" which we will explain at the end of this tutorial
 </Note>
 
-## Download the Feather .ipa
+## Downloading Feather
 
-Download the latest release of feather from the releases page on their GitHub below.&#x20;
+Download the latest release of feather from the releases page on their GitHub below. Make sure you**download the .ipa \*\* and**not the .tipa\*\* .
+
+[**TIPA files**](https://fileinfo.com/extension/tipa)** are IPA files** **specifically for **[**TrollStore**](https://ios.cfw.guide/installing-trollstore/). [TrollStore](https://ios.cfw.guide/installing-trollstore/) supports iOS 14.0 (From 14.0 beta 2, beta 1 isn't supported) to iOS 16.7 (Release canidate 20H18), and iOS 17.0. If you are on one of those versions, follow this tutorial. Otherwise continue.
+
+<Warning>
+  There is no jailbreak for iOS 17\+. Please do not fall for any [youtube videos](https://www.youtube.com/results?search_query=iOS+18+jailbreak) claiming there is. The only device that can be jailbroken on iOS 17\+ is the [iPad 7](https://support.apple.com/en-us/111911). If you have a [iPad 7,](https://support.apple.com/en-us/111911) follow this [tutorial](https://ios.cfw.guide/get-started/iPad-\(7th-generation\).html).
+</Warning>
 
 ```
 https://github.com/khcrysalis/Feather/releases/
 ```
-
-<Warning>
-  Please insure to get the .ipa version and NOT the .tipa version, as that is for TrollStore and will NOT work with this guide.
-</Warning>
 
 ## Installing Feather
 
@@ -34,6 +35,7 @@ https://sign.kravasign.com/
 Then click choose file in the ipa section and select the Feather .ipa you downloaded before.
 
 ![](/choosefile.png)
+
 After that, import your mobile provision and .p12 file you obtained from dxsign.cc, and type in the password given within the file "password" in the folder you downloaded from dxsign. Common passwords are 1234 and abcdefg, but to be sure open your files and tap on the file, where it will then show you your password.
 
 After importing that, click upload and sign.
@@ -57,9 +59,10 @@ Go to **Settings**, select **Add Certificate** under signing, and upload both yo
 ![Feather Settings Screen](/images/Feather/settings_screen.jpeg)
 
 ![Import Certificate](/images/Feather/import_certificate.jpeg)
+
 ![Actually Import Certificate](/images/Feather/actually_import_certificate.jpeg)
 
-That's it! You can now return to the main Settings tab and see the status of your certificate under **Signing**.
+That's it\! You can now return to the main Settings tab and see the status of your certificate under **Signing**.
 
 ![Feather Settings Screen](/images/Feather/settings_screen_with_cert.jpeg)
 
@@ -77,7 +80,7 @@ You should now see your app under Downloaded Apps. Click on the App you want to 
 
 The signing progress may take some time depending on the size of your IPA files, so please wait for it to complete.
 
-And you're all set! If your device is running iOS 17.6 or below, simply select **Install "App Name"** confirm the installation, and the app should appear on your home screen. If not, please follow the steps below.
+And you're all set\! If your device is running iOS 17.6 or below, simply select **Install "App Name"** confirm the installation, and the app should appear on your home screen. If not, please follow the steps below.
 
 ## Online Signing Mode
 
