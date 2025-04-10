@@ -28,15 +28,8 @@
       "pages": ["introduction"]
     },
     {
-      "group": "Miscellaneous",
-      "pages": ["faqs/mysign"]
-    },
-    {
       "group": "Tutorials",
-      "pages": ["guides/feather","guides/websign", "guides/enable-developer-mode"]
+      "pages": ["guides/feather","guides/websign", "guides/enable-developer-mode", "faqs/mysign"]
     }
   ],
-  "footerSocials": {
-    "discord": "https://dsc.gg/mysign"
-  }
 }
