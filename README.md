@@ -1,7 +1,17 @@
 # Welcome to MyGuide!
+
+## Where can I download enterprise certificates?
 - Certificates are available in the Certificates folder
-- The template ipa repo is available in the Downloads folder
-# Where can I get the @gliddd4 repo? 
+## How can I create my own IPA repo?
+- Make a new GitHub repository
+- Download the template ipa repo in the Downloads folder
+- Upload that to your new GitHub repository
+- Edit the uploaded file with your IPA's
+- Share the repo through the raw file url
+## Where can I get MySign?
+- In the Downloads foler
+- The app is a simple preview I haven't released the full thing yet
+## Where can I get the @gliddd4 repo? 
 - https://raw.githubusercontent.com/gliddd4/MyGuide/refs/heads/main/gliddd4%20repo/app.json
-# Where can I get MySign?
-- s0n, the 1.0 IPA isn't uploading to GitHub atm 
+## How can I contribute to MyGuide?
+- Dm @ gliddd4 on Discord.
