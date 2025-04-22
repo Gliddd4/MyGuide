@@ -2,13 +2,13 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "MySign",
   "logo": {
-    "dark": "/Icon.png",
-    "light": "/Icon.png"
+    "dark": "Images/Icon.png",
+    "light": "Images/Icon.png"
   },
   "background": {
     "style": "grid"
   },
-  "favicon": "/Icon.png",
+  "favicon": "Images/Icon.png",
   "modeToggle": {
     "default": "dark",
     "isHidden": true

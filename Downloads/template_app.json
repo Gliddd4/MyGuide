@@ -1,0 +1,40 @@
+{
+    "name": "Repository name",
+    "identifier": "Repository Identifier",
+    "iconURL": "Repository Icon URL",
+    "website": "Repository Attached Website",
+    "subtitle": "Repository Subtitle",
+    "description": "Repository Description",
+    "tintColor": "#000000 Repository Accent Color",
+    "featuredApps": [
+      "List a apps bundleIdentifier to feature it"
+    ],
+    
+    "apps": [
+      {
+        "beta": true/false,
+        "name": "App Name",
+        "bundleIdentifier": "App Identifier",
+        "developerName": "App Developer",
+        "subtitle": "App Subtitle",
+        "description": "Full description",
+        "localizedDescription": "Full Description",
+        "iconURL": "App Icon URL",
+        "tintColor": "App Accent Color",
+        "version": "x.x.x App Version",
+        "versionDate": "Date you added this app",
+        "downloadURL": "Direct Download URL",
+        "size": "App Size in bytes",
+        "title": "App Name",
+        "url": "App URL",
+        "versions": [
+          {
+            "version": "Specific App Version",
+            "date": "Date you added this version",
+            "downloadURL": "Specific Download URL for version",
+            "size": "App Size in bytes"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,43 @@
+{
+  "name": "gliddd4 Repo",
+  "identifier": "gliddd4.repo",
+  "iconURL": "https://github.com/c04b2daf-eee6-44f4-ae24-6d527601bb2d",
+  "website": "https://discord.gg/hUK5m9MGFc",
+  "subtitle": "Repository for @gliddd4's projects",
+  "description": "Repository for @gliddd4 projects.",
+  "tintColor": "#D3D5D4",
+  "featuredApps": [
+    "com.gliddd4.realmzer.mysign"
+  ],
+  "apps": [
+    {
+      "beta": true,
+      "name": "MySign",
+      "bundleIdentifier": "com.gliddd4.realmzer.mysign",
+      "developerName": "gliddd4",
+      "subtitle": "Preview for MySign",
+      "description": "A very simple repository viewer.",
+      "localizedDescription": "A very simple repository viewer.",
+      "iconURL": "https://cdn1.realmzer.xyz/IMG_4153-UV.png",
+      "tintColor": "#326B8B",
+      "category": "utilities",
+      "version": "Preview",
+      "versionDate": "2024-12-26",
+      "downloadURL": "https://github.com/Gliddd4/gliddd4-repo/raw/refs/heads/main/MySign_1.0_1741308653.ipa",
+      "size": 2860000,
+      "title": "MySign",
+      "url": "https://discord.gg/hUK5m9MGFc"
+    },
+  ],
+  "news": [
+    {
+      "title": "Thanks for using my repo",
+      "identifier": "joinourdcserver",
+      "caption": "If you want updates on MySign, you can join my discord server by clicking this.",
+      "date": "2025-04-22",
+      "tintColor": "#326B8B",
+      "url": "https://dsc.gg/mysign",
+      "notify": true
+    }
+  ]
+}
